@@ -1,0 +1,104 @@
+% Wildlife Forensics: Outline Day 1
+
+\documentclass[hidelinks]{article}
+
+%-- Set Margins --%
+\usepackage[margin=2.5cm]{geometry}
+
+%-- Package for text colouration --%
+\usepackage[usenames,dvipsnames]{color}
+
+%-- Set font to sans serif ---%
+\renewcommand{\familydefault}{\sfdefault}
+
+%-- Package for Links --%
+\usepackage{hyperref}
+
+%-- Set paragraph spacing and indentation --%
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5cm}
+
+%-- Package for controlling spacing of lists --%
+\usepackage[shortlabels]{enumitem}
+\setlist[enumerate]{topsep=-5pt}
+\setlist[itemize]{topsep=-5pt}
+
+%-- Packages for Proper Handling of Figures --%
+\usepackage{graphicx}
+\usepackage{float}
+
+%-- Packages for making nice tables --%
+\usepackage{booktabs}
+\usepackage{makecell}  % Required for specifying multiple rows within a table cell
+\usepackage[table]{xcolor}  % Required for alternating line colours of tables
+\definecolor{smured}{RGB}{111,2,2}
+\definecolor{myblue}{rgb}{0,0.3,0.6}
+\usepackage{longtable}
+
+%-- Packages for including logo --%
+\usepackage{tikz}
+
+
+%---------------------------------------------------------------------------------------
+\begin{document}
+
+%-- Without the *, vspace is cleared at the beginning of each page --%
+%\vspace*{0.05mm}
+
+%\tikz[remember picture, overlay] \node at (-1, 2) [anchor=north west] {\includegraphics[width=0.7\textwidth]{figures/logo.png}};
+
+
+%-----------------------------------%
+%  Course Info                      %
+%-----------------------------------%
+\Huge{\textbf{\textcolor{smured}{Outline: Day \#1}}}\normalsize{}
+
+
+%--------------------%
+% Introduce Myself   %
+%--------------------%
+\section{Introduce Myself}
+	\begin{enumerate}
+		\item Name
+		\item How long at SMU?
+		\item Position (Forensics \& Biology)
+		\item Research interests
+		\item Role in forensics:
+			\begin{itemize}
+				\item Wildlife forensics lab
+				\item RCMP training
+				\item SMU (Halifax Police, ME's office)
+			\end{itemize}
+	\end{enumerate}
+
+
+%--------------------%
+% Introduce Course   %
+%--------------------%
+\section{Introduce Course}
+
+	%--------------------%
+	%  Classes           %
+	%--------------------%
+	\subsection{Classes}
+		\begin{enumerate}
+			\item Major international issues
+			\item Major international laws and regulations
+			\item Major Canadian issues
+			\item Major Canadian laws and regulations
+		\end{enumerate}
+
+	%--------------------%
+	%  Labs              %
+	%--------------------%
+	\subsection{Labs (focus)}
+		\begin{enumerate}
+			\item Detailed methods of molecular species identification (like a forensic technician)
+			\item Apply this to food from local sources
+				\begin{itemize}
+					\item Mis-labelling food is very common, in restaurants as well as stores
+					\item Will get a feel for this in Halifax
+					\item Is fun! Always find something interesting
+				\end{itemize}
+		\end{enumerate}
+\end{document}
